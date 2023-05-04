@@ -1,8 +1,23 @@
----
-title: Stable Computing Ltd
-description: We're a software consultancy based in Edinburgh and we love working with people to create great software.
----
-<div class="w-full flex bg-gradient-to-r from-rose-500 to-blue-500 min-h-screen">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="title" content="Stable Computing Ltd">
+    <meta name="description" content="We're a software consultancy based in Edinburgh and we love working with people to create great software.">
+    <meta name="author" content="Andy Stabler">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Stable Computing Ltd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+  </head>
+  <body>
+    <div class="w-full flex bg-gradient-to-r from-rose-500 to-blue-500 min-h-screen">
   <div class="w-3/4 sm:w-2/3 m-auto">
     <h1 class="font-inter text-5xl sm:text-8xl text-white text-center leading-snug sm:leading-normal">Creating beautiful software isn't easy</h1>
   </div>
@@ -17,14 +32,14 @@ description: We're a software consultancy based in Edinburgh and we love working
     <h1 class="font-bold font-inter text-4xl sm:text-6xl text-white text-center leading-snug sm:leading-normal pb-8">Let's make something together</h1>
     <div class="flex flex-col md:flex-row justify-center items-center">
       <div class="flex flex-col text-center text-white mb-4">
-        <%= image_tag "me.jpg", width: "400", height: "400", class: "rounded-full", alt: "A photo of Andy with his dog, Rolo." %>
+        <img src="/images/me.jpg" width="400" height="400" class="rounded-full" alt="A photo of Andy with his dog, Rolo." />
         <p class="italic pt-3">Director and Principal Consultant</p>
         <p class="italic">Andy Stabler</p>
       </div>
       <div class="px-8 md:pr-0 font-inter text-white w-full sm:w-2/3 md:w-1/3 text-center text-lg flex flex-col items-center">
         <p class="py-3">We're a software consultancy based in Edinburgh and we love working with people to create great software.</p>
         <p class="py-3">Get in touch to see how we can help.</p>
-        <%= link_to "Let's work together", "mailto:info@stablecomputingltd.com", target: "_blank", class: "bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 mt-9 rounded w-fit" %>
+        <a href="mailto:info@stablecomputingltd.com" target="_blank" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 mt-9 rounded w-fit">Let's work together</a>
       </div>
     </div>
     <div class="text-white text-center mt-9">
@@ -34,3 +49,6 @@ description: We're a software consultancy based in Edinburgh and we love working
     </div>
   </div>
 </div>
+
+  </body>
+</html>
