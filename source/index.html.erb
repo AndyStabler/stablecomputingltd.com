@@ -1,23 +1,36 @@
 ---
-title: Welcome to Middleman
+title: Stable Computing Ltd
+description: We're a software consultancy based in Edinburgh and we love working with people to create great software.
 ---
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
-  <title id="middleman-logo__title">Middleman</title>
-  <path class="middleman-logo__top-left-bar" fill-opacity=".45" d="M0 40L200 0v30L0 60z"/>
-  <path class="middleman-logo__top-right-bar" fill="#fff" d="M200 0l200 40v20L200 30z"/>
-  <path class="middleman-logo__left-m" fill-opacity=".45" d="M0 78v184l45 5V152l45 83 47-83v129l53 7V52l-57 8-43 83-43-70z"/>
-  <path class="middleman-logo__right-m" fill="#fff" d="M400 78v184l-45 5V152l-45 83-47-83v129l-53 7V52l57 8 43 83 43-70z"/>
-  <path class="middleman-logo__bottom-left-bar" fill-opacity=".45" d="M0 300l200 40v-30L0 280z"/>
-  <path class="middleman-logo__bottom-right-bar" fill="#fff" d="M200 340l200-40v-20l-200 30z"/>
-</svg>
-
-<h1>
-  Middleman is Running
-</h1>
-
-<%= link_to(
-  "Read Documentation",
-  "https://middlemanapp.com/basics/templating_language/",
-  target: "_blank"
-) %>
+<div class="w-full flex bg-gradient-to-r from-rose-500 to-blue-500 min-h-screen">
+  <div class="w-3/4 sm:w-2/3 m-auto">
+    <h1 class="font-inter text-5xl sm:text-8xl text-white text-center leading-snug sm:leading-normal">Creating beautiful software isn't easy</h1>
+  </div>
+</div>
+<div class="flex bg-white min-h-screen">
+  <div class="w-2/3 m-auto">
+    <h1 class="font-inter text-8xl md:text-9xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">But it <i>is</i> <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">fun</span></h1>
+  </div>
+</div>
+<div class="w-full flex bg-gradient-to-r from-indigo-950 to-blue-950 min-h-screen">
+  <div class="container mx-auto py-9 mt-5">
+    <h1 class="font-bold font-inter text-4xl sm:text-6xl text-white text-center leading-snug sm:leading-normal pb-8">Let's make something together</h1>
+    <div class="flex flex-col md:flex-row justify-center items-center">
+      <div class="flex flex-col text-center text-white mb-4">
+        <%= image_tag "me.jpg", width: "400", height: "400", class: "rounded-full", alt: "A photo of Andy with his dog, Rolo." %>
+        <p class="italic pt-3">Director and Principal Consultant</p>
+        <p class="italic">Andy Stabler</p>
+      </div>
+      <div class="px-8 md:pr-0 font-inter text-white w-full sm:w-2/3 md:w-1/3 text-center text-lg flex flex-col items-center">
+        <p class="py-3">We're a software consultancy based in Edinburgh and we love working with people to create great software.</p>
+        <p class="py-3">Get in touch to see how we can help.</p>
+        <%= link_to "Let's work together", "mailto:info@stablecomputingltd.com", target: "_blank", class: "bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 mt-9 rounded w-fit" %>
+      </div>
+    </div>
+    <div class="text-white text-center mt-9">
+      <p>Company number: 13437939</p>
+      <p>VAT: 386969024</p>
+      <p>Copyright © 2023 - Stable Computing Ltd</p>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,7 @@
+.DS_Store
 .bundle
 .cache
-.DS_Store
 .sass-cache
 build/
+dist/
+node_modules/
